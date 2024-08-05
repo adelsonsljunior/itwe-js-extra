@@ -12,6 +12,6 @@ function mostrarResultado() {
 
 function ordem(a, b, c) {
 
-    numeros = [a, b, c];
+    let numeros = [a, b, c];
     return numeros.sort((a, b) => a - b);
 }
